@@ -1,5 +1,6 @@
 # Spring Cloud Azure EventHub Example
 ## Introduction
+Connect to Azure China EventHub via connection string.  
 MessageController receive the post messages and send it to EventHub.  
 MessageListener consume the messages in EventHub.
 
@@ -15,8 +16,9 @@ Caused by: java.lang.ClassCastException: java.lang.String cannot be cast to java
 `
 
 ## How ro Test
-1. mvn spring-boot:run
-2. curl -X POST 'http://localhost:8080/messages?message=Hello%20World'
+1. Set EventHub configuration in application.properties
+2. mvn spring-boot:run
+3. curl -X POST 'http://localhost:8080/messages?message=Hello%20World'
 
 
 ### Reference Documentation
