@@ -22,5 +22,5 @@ Caused by: java.lang.ClassCastException: java.lang.String cannot be cast to java
 
 
 ### Reference Documentation
-https://github.com/microsoft/spring-cloud-azure/tree/master/spring-cloud-azure-samples/eventhubs-binder-sample
+https://github.com/microsoft/spring-cloud-azure/tree/master/spring-cloud-azure-samples/eventhubs-binder-sample   
 https://docs.microsoft.com/en-us/azure/java/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub
